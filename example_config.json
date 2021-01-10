@@ -10,5 +10,6 @@
   "bezier_interpolation_steps":2,
   "arc_interpolation_steps":5,
   "working_area": [180, 180],
-  "invert_axis": [false, true]
+  "invert_axis": [false, true],
+  "manual_inspection": "last_pass"
 }

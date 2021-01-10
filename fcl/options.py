@@ -14,4 +14,5 @@ class Options:
         self.arc_interpolation_steps = cfg['arc_interpolation_steps']
         self.working_area = cfg['working_area']
         self.invert_axis = cfg['invert_axis']
+        self.manual_inspection = cfg['manual_inspection']
 
