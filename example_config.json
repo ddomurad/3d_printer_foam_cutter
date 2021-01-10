@@ -1,0 +1,14 @@
+{
+  "cutting_speed": 250,
+  "travel_speed": 1500,
+  "travel_height": 20,
+  "first_cutting_height": 10,
+  "cutting_layer_size": 5,
+  "cutting_passes": 3,
+  "start_gcode": "G28 X Y; auto home x y\nG92 Z0; reset Z",
+  "end_gcode": "",
+  "bezier_interpolation_steps":2,
+  "arc_interpolation_steps":5,
+  "working_area": [180, 180],
+  "invert_axis": [false, true]
+}
