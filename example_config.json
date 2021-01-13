@@ -1,15 +1,17 @@
 {
-  "cutting_speed": 250,
-  "travel_speed": 1500,
-  "travel_height": 20,
-  "first_cutting_height": 10,
-  "cutting_layer_size": 5,
+  "cutting_speed": 150,
+  "travel_speed": 1000,
+  "travel_height": 15,
+  "first_cutting_height": 6.4,
+  "cutting_layer_size": 3.2,
   "cutting_passes": 3,
-  "start_gcode": "G28 X Y; auto home x y\nG92 Z0; reset Z",
+  "start_gcode": "G92 X0 Y0 Z0;",
   "end_gcode": "",
-  "bezier_interpolation_steps":2,
-  "arc_interpolation_steps":5,
-  "working_area": [180, 180],
+  "bezier_interpolation_steps": 2,
+  "arc_interpolation_steps": 5,
+  "working_area": [80, 90],
   "invert_axis": [false, true],
-  "manual_inspection": "last_pass"
+  "manual_inspection": "last_pass",
+  "reverse_paths_order": false,
+  "enable_gcode_comments": false
 }

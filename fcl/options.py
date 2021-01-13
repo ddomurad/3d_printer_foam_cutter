@@ -15,4 +15,5 @@ class Options:
         self.working_area = cfg['working_area']
         self.invert_axis = cfg['invert_axis']
         self.manual_inspection = cfg['manual_inspection']
+        self.reverse_paths_order = cfg['reverse_paths_order']
 

@@ -22,7 +22,8 @@ planner = PathPlanner(options)
 gcode_generator = GcodeGenerator(options)
 
 paths, attributes = svg2paths(input_file)
-paths.reverse()
+if options.reverse_paths_order:
+    paths.reverse()
 tool_path = planner.plan_tool_path_from_svg(paths)
 
 gcode = gcode_generator.generate_gcode(tool_path)
